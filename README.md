@@ -1,5 +1,9 @@
 # ☕ CoffeeShop Manager CLI App for Café's ☕ 
 
+
+![Project Screenshot](CoffeShop_Greeting.png)
+
+
 ## Contents
 
 This repo contains:
