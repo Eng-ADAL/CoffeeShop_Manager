@@ -16,17 +16,33 @@ def couriers_menu(couriers_list: list[str]):
     while True:
         u.clr_scrn()
         print("""
---- Couriers Menu ---
 
-1 - View couriers
-2 - Add a courier
-3 - Update a courier
-4 - Delete a courier
-
-0 - Return to Main Menu
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓   ______ _______ _______ _______ _______ _______      _______ _______ _______ ______   ▓▓
+▓▓  |      |       |    ___|    ___|    ___|    ___|    |     __|   |   |       |   __ \  ▓▓
+▓▓  |   ---|   -   |    ___|    ___|    ___|    ___|    |__     |       |   -   |    __/  ▓▓
+▓▓  |______|_______|___|   |___|   |_______|_______|    |_______|___|___|_______|___|     ▓▓
+▓▓                                                                                        ▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓                                                                                        ▓▓
+▓▓                                                                                        ▓▓
+▓▓                              --- Couriers Menu ---                                     ▓▓
+▓▓                                                                                        ▓▓
+▓▓                                                                                        ▓▓
+▓▓                              1 - View couriers                                         ▓▓
+▓▓                              2 - Add a courier                                         ▓▓
+▓▓                              3 - Update a courier                                      ▓▓
+▓▓                              4 - Delete a courier                                      ▓▓
+▓▓                                                                                        ▓▓
+▓▓                              0 - Return to Main Menu                                   ▓▓
+▓▓                                                                                        ▓▓
+▓▓                                                                                        ▓▓
+▓▓                                                                                        ▓▓
+▓▓                                                                                        ▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
               """)
 
-        choice = input("\n\nChoose an option: ").strip()
+        choice = input("\n                              Choose an option: ").strip()
 
 # 0 - Return to Main Menu
         if choice in ['0', 'o', 'q']:
@@ -229,7 +245,9 @@ def couriers_menu(couriers_list: list[str]):
                 continue
 
         else:
-            print("\n⚠️  Invalid input. Please enter 0–4.")
-            u.t_wait(2.5)
+            u.clr_scrn()
+            u.invld()
+            print("\n                                ⚠️ Invalid input. ⚠️")
+            u.t_wait(2)
     return new_couriers
 

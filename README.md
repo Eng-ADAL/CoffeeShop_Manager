@@ -78,6 +78,8 @@ Planned tests for:
 * CSV read/write round-trip
 * Data loaders (`load_*` functions)
 
+![Unit Test SS](unit_test.png)
+
 **Running tests:**
 
 ```bash
