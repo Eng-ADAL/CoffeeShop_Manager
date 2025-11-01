@@ -18,7 +18,7 @@ def orders_menu(orders_list, products_list,couriers_list):
     while True:
         u.clr_scrn()
         print("""
-              
+
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ▓▓   ______ _______ _______ _______ _______ _______      _______ _______ _______ ______   ▓▓
 ▓▓  |      |       |    ___|    ___|    ___|    ___|    |     __|   |   |       |   __ \  ▓▓
@@ -31,11 +31,11 @@ def orders_menu(orders_list, products_list,couriers_list):
 ▓▓                                                                                        ▓▓
 ▓▓                              --- Couriers Menu ---                                     ▓▓
 ▓▓                                                                                        ▓▓
-▓▓                                                                                        ▓▓
-▓▓                              1 - View couriers                                         ▓▓
-▓▓                              2 - Add a courier                                         ▓▓
-▓▓                              3 - Update a courier                                      ▓▓
-▓▓                              4 - Delete a courier                                      ▓▓
+▓▓                              1 - View Orders                                           ▓▓
+▓▓                              2 - Create New Orders                                     ▓▓
+▓▓                              3 - Update an Order Status                                ▓▓
+▓▓                              4 - Update an Order                                       ▓▓
+▓▓                              5 - Delete Order                                          ▓▓
 ▓▓                                                                                        ▓▓
 ▓▓                              0 - Return to Main Menu                                   ▓▓
 ▓▓                                                                                        ▓▓
