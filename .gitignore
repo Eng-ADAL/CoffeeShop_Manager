@@ -135,6 +135,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.envrc
+.direnv
+
+# Vim Session
+Session.vim
 
 # Spyder project settings
 .spyderproject
